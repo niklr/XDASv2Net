@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XDASv2Net", "XDASv2Net\XDASv2Net.csproj", "{EEC3DDDE-C172-49F1-A08F-33A0032A0FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XDASv2Net.Tests", "XDASv2Net.Tests\XDASv2Net.Tests.csproj", "{24684531-E76A-4B39-9C8F-7C626E4BAD68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEC3DDDE-C172-49F1-A08F-33A0032A0FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC3DDDE-C172-49F1-A08F-33A0032A0FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC3DDDE-C172-49F1-A08F-33A0032A0FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC3DDDE-C172-49F1-A08F-33A0032A0FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24684531-E76A-4B39-9C8F-7C626E4BAD68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24684531-E76A-4B39-9C8F-7C626E4BAD68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24684531-E76A-4B39-9C8F-7C626E4BAD68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24684531-E76A-4B39-9C8F-7C626E4BAD68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
