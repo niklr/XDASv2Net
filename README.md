@@ -81,7 +81,8 @@ helps you easily understand the audit trails of heterogeneous applications.
             "Id": {
               "description": "The XDASv2 taxonomy event identifier.",
               "type": "string",
-              "optional": false
+              "optional": false,
+              "pattern": "/^[0-9]+(\.[0-9]+)*$/" 
             },
             "Name": {
               "description": "A short descriptive name for the specific event.",
@@ -128,7 +129,8 @@ helps you easily understand the audit trails of heterogeneous applications.
         "Outcome": {
           "description": "The XDASv2 taxonomy outcome identifier.",
           "type": "string",
-          "optional": false
+          "optional": false,
+          "pattern": "/^[0-9]+(\.[0-9]+)*$/"
         },
         "Time": {
           "description": "The time the event occurred.",
@@ -171,7 +173,8 @@ helps you easily understand the audit trails of heterogeneous applications.
           "ExtendedOutcome": {
             "description": "The XDASv2 taxonomy outcome identifier.",
             "type": "string",
-            "optional": false
+            "optional": false,
+            "pattern": "/^[0-9]+(\.[0-9]+)*$/"
           }
         }
       }
