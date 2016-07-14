@@ -28,6 +28,6 @@ namespace XDASv2Net.Model
         /// <summary>
         /// Attribute/value assertions about an identity.
         /// </summary>
-        public virtual Dictionary<string, string> Assertions { get; set; }
+        public virtual object Assertions { get; set; }
     }
 }

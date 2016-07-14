@@ -28,6 +28,6 @@ namespace XDASv2Net.Model
         /// <summary>
         /// A set attribute/value pairs describing the target object.
         /// </summary>
-        public virtual Dictionary<string, string> Data { get; set; }
+        public virtual object Data { get; set; }
     }
 }
