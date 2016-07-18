@@ -12,11 +12,11 @@ namespace XDASv2Net.Model
         /// </summary>
         public Time()
         {
-
+            Certainty = 100;
         }
 
         /// <summary>
-        /// Milliseconds since Jan 1, 1970.
+        /// Seconds since Jan 1, 1970.
         /// </summary>
         [Required]
         public virtual int Offset { get; set; }

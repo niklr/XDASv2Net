@@ -124,7 +124,8 @@ namespace XDASv2Net.Tests.Integration
       ""Severity"": 7
     },
     ""Time"": {
-      ""Offset"": 1389173763
+      ""Offset"": 1389173763,
+      ""Certainty"": 100
     },
     ""Outcome"": ""0"",
     ""ExtendedOutcome"": ""0""
@@ -246,7 +247,8 @@ namespace XDASv2Net.Tests.Integration
       ""Severity"": 7
     },
     ""Time"": {
-      ""Offset"": 1389847714
+      ""Offset"": 1389847714,
+      ""Certainty"": 100
     },
     ""Outcome"": ""0"",
     ""ExtendedOutcome"": ""0""
